@@ -11,9 +11,6 @@ body {
     font-family: "Lato", sans-serif;
 }
 
-.wrapper {
-}
-
 /* Variables */
 
 :root {
@@ -64,6 +61,40 @@ body {
 
 .menu__item:hover {
     background: var(--gray-color);
+}
+
+/* Section */
+
+.wrapper {
+    padding: 32px 20px 20px 320px;
+}
+
+.doc-section {
+    padding-top: 14px;
+}
+
+.doc-section__header {
+    font-size: 24px;
+}
+
+.doc-section__text {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.doc-section__item {
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.code-listing {
+    display: block;
+    margin: 10px 0;
+    padding: 15px 45px 15px 15px;
+    line-height: 1.5;
+    background: #f7f7f7;
 }
 
 /* Scroll */
