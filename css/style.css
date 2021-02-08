@@ -1,0 +1,80 @@
+@import "normalize.css";
+
+*,
+::before,
+::after {
+    font-family: "Lato", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.wrapper {
+}
+
+/* Variables */
+
+:root {
+    --gray-color: #b3b3b3;
+    --light-gray-color: #c4c4c4;
+}
+
+/* Left side panel */
+
+.left-side {
+    position: fixed;
+    width: 300px;
+    height: 100vh;
+    border-right: 3px solid var(--gray-color);
+}
+
+.left-side__header-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 38px 0;
+    border-bottom: 2px solid var(--gray-color);
+}
+
+.js-logo {
+    width: 42px;
+}
+
+.left-side__header {
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+.menu {
+    height: 81.7%;
+    overflow-y: auto;
+}
+
+.menu__item {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    border-bottom: 2px solid var(--gray-color);
+}
+
+.menu__item:hover {
+    background: var(--gray-color);
+}
+
+/* Scroll */
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 8px;
+    border-radius: 4px;
+    background: var(--light-gray-color);
+    border: 2px solid #fff;
+}
