@@ -1,4 +1,4 @@
-# js-documentation-page
+# FCC: Technical documentation page
 The FCC HTML/CSS challenge 
 
 # Preview
