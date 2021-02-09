@@ -196,8 +196,11 @@ input[type="checkbox"]:checked ~ .fade-all-page {
     }
 }
 
-@media (max-width: 480px) {
-}
-
 @media (max-width: 320px) {
+    .left-side__header-mobile {
+        font-size: 24px;
+    }
+    .js-logo-mobile {
+        width: 36px;
+    }
 }
